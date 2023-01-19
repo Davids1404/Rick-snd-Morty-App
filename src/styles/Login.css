@@ -1,0 +1,102 @@
+.login {
+    position: absolute;
+    top: 0;
+    right:0 ;
+    bottom:0 ;
+    left:0 ;
+    margin:0;
+    
+    
+    background-image:url('./images/backgrounRickandMorty1.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.placeholder {
+
+    position: relative;
+    top: -4px;
+    right: 0px; ;
+    bottom: 0px ;
+    left: 35px;
+    margin:8px;
+
+    font-family:'Creepster'; 
+
+    border-radius: 10px;
+    border-color:teal ;
+    border-style: solid;
+    border-width: 3px;
+}
+
+
+.button {
+    position: relative;
+    top: -2px;
+    right: 0px; 
+    bottom: 0px;
+    left: 40px;
+    
+    margin: 1px;
+    padding: 6px;
+    
+    background-color: teal;
+    
+    font-family:'Creepster';
+    color:greenyellow;
+
+    border-radius: 7px;
+    border-color: greenyellow;
+
+    cursor: pointer;
+}
+
+
+.form{
+    width: 435px;
+    height: 140px;
+    opacity: 0.8;
+    
+    position: absolute;
+    top: -15px;
+    right:0 ;
+    bottom:0 ;
+    left:-10px ;
+    margin: auto ;
+    
+    background-image: url('./images/backgroundletter.jpg');
+    background-size: cover;
+    background-repeat: no repeat;
+    
+    
+    border-radius: 30px;
+    border-color: teal;
+    border-width: 5px;
+    border-style: solid;
+
+
+
+
+
+    animation: opacity 2s infinite alternate;
+
+}
+
+@keyframes opacity {
+    from {
+        opacity:0.4;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+
+
+
+
+
+
+
